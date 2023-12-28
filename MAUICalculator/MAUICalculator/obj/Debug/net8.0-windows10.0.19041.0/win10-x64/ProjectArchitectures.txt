@@ -1,0 +1,1 @@
+C:\Users\jacob\repos\jglanz\Software\MAUICalculator\MAUICalculator\MAUICalculator.csproj;x64

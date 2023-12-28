@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAUICalculator", "MAUICalculator\MAUICalculator.csproj", "{31E69EDA-0FC5-4508-98A8-0E8BB2843656}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31E69EDA-0FC5-4508-98A8-0E8BB2843656}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31E69EDA-0FC5-4508-98A8-0E8BB2843656}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31E69EDA-0FC5-4508-98A8-0E8BB2843656}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{31E69EDA-0FC5-4508-98A8-0E8BB2843656}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31E69EDA-0FC5-4508-98A8-0E8BB2843656}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31E69EDA-0FC5-4508-98A8-0E8BB2843656}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8690CC4-0CC2-48C2-8CE8-1865EC3555E4}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUICalculator.Calculator"
+             Title="Calculator">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+        <Style TargetType="Label">
+            <Setter Property="BackgroundColor" Value="Green"/>
+        </Style>
+        <Style TargetType="Label" x:Key="lbl" CanCascade="False">
+            <Setter Property="TextColor" Value="Blue"/>
+        </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+
+    <Grid Margin="10" ColumnDefinitions="*,*,*,*" RowDefinitions="*,*,*,*,*,*,*" ColumnSpacing="5" RowSpacing="5">
+
+        <Frame Grid.Row="0" Grid.Column="0">
+            <Label Text="5"/>
+        </Frame>
+        <Frame Grid.Row="0" Grid.Column="1">
+            <Label Text="/"/>
+        </Frame>
+        <Frame Grid.Row="0" Grid.Column="2">
+            <Label Text="2"/>
+        </Frame>
+        <Frame Grid.Row="0" Grid.Column="3">
+            <Label Text="2.5"/>
+        </Frame>
+
+        <Button Text="0" Grid.Row="5" Grid.Column="1"/>
+        <Button Text="1" Grid.Row="4" Grid.Column="0"/>
+        <Button Text="2" Grid.Row="4" Grid.Column="1"/>
+        <Button Text="3" Grid.Row="4" Grid.Column="2"/>
+        <Button Text="4" Grid.Row="3" Grid.Column="0"/>
+        <Button Text="5" Grid.Row="3" Grid.Column="1"/>
+        <Button Text="6" Grid.Row="3" Grid.Column="2"/>
+        <Button Text="7" Grid.Row="2" Grid.Column="0"/>
+        <Button Text="8" Grid.Row="2" Grid.Column="1"/>
+        <Button Text="9" Grid.Row="2" Grid.Column="2"/>
+        <Button Text="-/+" Grid.Row="5" Grid.Column="0"/>
+        <Button Text="." Grid.Row="5" Grid.Column="2"/>
+
+        <Label Text="dddddddddddd/" Grid.Row="1" Grid.Column="3" Style="{StaticResource Key=lbl}"/>
+        <Button Text="X" Grid.Row="2" Grid.Column="3" Style="{StaticResource Key=Operator}"/>
+        <Button Text="-" Grid.Row="3" Grid.Column="3" Style="{StaticResource Key=Operator}"/>
+        <Button Text="+" Grid.Row="4" Grid.Column="3" Style="{StaticResource Key=Operator}"/>
+
+        <Button Text="c" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Style="{StaticResource Key=PrimaryOperator}"/>
+        <Button Text="=" Grid.Row="5" Grid.Column="3" Style="{StaticResource Key=PrimaryOperator}"/>
+    </Grid>
+
+</ContentPage>
